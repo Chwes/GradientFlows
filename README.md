@@ -34,13 +34,13 @@ A Python framework for simulating particle-based gradient flows, supporting both
 │   ├── kernels/             # Kernel definitions
 │   ├── integrators/         # Numerical ODE solvers
 │   ├── integrands/          # Functions for SNIS estimation
-│   ├── utils/               # Plotting, metrics, and general utilities
-│   └── main.py              # Hydra-based experiment entry point
+│   └── utils/               # Plotting, metrics, and general utilities
+│  
 ├── example.py               # 1D SVGD example
 ├── example_kfrflow.py       # 2D KFRFlow example
 ├── configs/                 # YAML config files for experiments (not uploaded)
-└── outputs/                 # Auto-created directory for results
-
+├── outputs/                 # Auto-created directory for results
+└── main.py              # Hydra-based experiment entry point
 ```
 
 ---
