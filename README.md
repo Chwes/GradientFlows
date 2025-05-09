@@ -1,4 +1,4 @@
-# Particle-Based Gradient Flow Simulator
+# Particle-Based Gradient Flow
 
 A Python framework for simulating particle-based gradient flows, supporting both SVGD and KFRFlow dynamics. This toolkit allows researchers to sample complex distributions, visualize particle evolution, and compute self-normalized importance sampling estimates.
 
