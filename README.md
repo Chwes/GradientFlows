@@ -28,17 +28,19 @@ A Python framework for simulating particle-based gradient flows, supporting both
 
 ```
 .
-├── Distributions.py     # Custom distributions
-├── GradientFlow.py      # Core solvers (SVGD, KFRFlow)
-├── Kernel.py            # Kernel definitions
-├── Integrators.py       # Numerical ODE integrators
-├── Integrands.py        # Integrands for SNIS
-├── utils.py             # Plotting, integration, and SNIS
-├── main.py              # Experiment entry point using Hydra
-├── example.py           # Example run (1D, SVGD)
-├── example_kfrflow.py   # Example run (2D, KFRFlow)
-├── configs/             # YAML config files (not uploaded)
-└── outputs/             # Auto-created during experiments
+├── src/
+│   ├── distributions/       # Custom distributions
+│   ├── flows/               # Core solvers: SVGD, KFRFlow
+│   ├── kernels/             # Kernel definitions
+│   ├── integrators/         # Numerical ODE solvers
+│   ├── integrands/          # Functions for SNIS estimation
+│   ├── utils/               # Plotting, metrics, and general utilities
+│   └── main.py              # Hydra-based experiment entry point
+├── example.py               # 1D SVGD example
+├── example_kfrflow.py       # 2D KFRFlow example
+├── configs/                 # YAML config files for experiments (not uploaded)
+└── outputs/                 # Auto-created directory for results
+
 ```
 
 ---
@@ -46,9 +48,10 @@ A Python framework for simulating particle-based gradient flows, supporting both
 ## 🚀 Installation
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/Chwes/GradientFlows.git
+cd GradientFlows
 pip install -r requirements.txt
+pip install hydra-core torch  # If not already included
 ```
 
 **Note:** You’ll also need [Hydra](https://hydra.cc/) and PyTorch installed.
