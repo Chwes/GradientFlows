@@ -99,3 +99,50 @@ The framework provides built-in visualization for:
 Plots are automatically saved as `.png` in the output directory.
 
 ---
+
+## 🧠 Core Pipeline (`main.py`)
+
+The main experiment runner, powered by **Hydra**, is defined in `main.py`. It manages the complete simulation pipeline from sampling to result saving.
+
+### 🔄 Pipeline Overview
+
+1. **Initialize Prior**  
+   Instantiates a custom prior distribution using the Hydra config.
+
+2. **Sample Constraint & Evaluation Particles**  
+   Samples particles used in the solver and for diagnostics (or loads from file if specified).
+
+3. **Compute Initial Densities**  
+   Evaluates prior density at sampled points.
+
+4. **Define Target Distribution**  
+   Sets up the target’s log-likelihood and score function for gradient-based flows.
+
+5. **Solver Instantiation**  
+   Dynamically builds the solver (SVGD or KFRFlow) with kernels, integrators, and particle data.
+
+6. **Run Dynamics**  
+   Evolves particles and computes divergence fields over time.
+
+7. **Evolve Densities**  
+   Integrates the divergence to produce evolved densities.
+
+8. **SNIS Estimation**  
+   Applies self-normalized importance sampling for final target estimation.
+
+9. **Save Results**  
+   Outputs all arrays (positions, densities, weights, etc.) to disk with timestamped folders.
+
+### 🗂 Saved Outputs
+
+Each experiment stores the following as `.npy` files:
+
+- Particle trajectories (Gradient Flow particles = `x_constr`, ODE particles = `x_eval`)
+- Evolved densities
+- Divergence fields
+- SNIS weights and estimates
+- Time steps (`t_values`)
+
+These are saved to the `outputs/` directory by default, organized per run.
+
+---
