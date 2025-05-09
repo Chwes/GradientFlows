@@ -1,0 +1,4 @@
+type: "Butterfly"
+ystar: -1.0
+sigma_eps: 0.6
+_target_: src.Distributions.Butterfly

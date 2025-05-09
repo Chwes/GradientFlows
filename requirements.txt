@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+seaborn
+torch
+omegaconf
+hydra-core

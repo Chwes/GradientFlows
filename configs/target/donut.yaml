@@ -1,0 +1,4 @@
+type: "Donut"
+ystar: 2
+sigma_eps: 0.25
+_target_: src.Distributions.Donut

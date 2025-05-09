@@ -1,0 +1,4 @@
+type: "SVGD"
+#verbose: True
+stopping_time: 1e6
+_target_: src.GradientFlow.SVGD

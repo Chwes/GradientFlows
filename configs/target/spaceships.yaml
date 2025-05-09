@@ -1,0 +1,4 @@
+type: "Spaceships"
+ystar: -1.0
+sigma_eps: 0.5
+_target_: src.Distributions.Spaceships

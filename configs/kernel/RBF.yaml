@@ -1,0 +1,3 @@
+type: "RBF"
+bw: null # OPTIONS: null or integer
+_target_: src.Kernel.RBF

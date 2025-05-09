@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b51d438e-dfde-42c8-84a6-8582f8d5f3e6" name="Changes" comment="first cleanup">
+      <change beforePath="$PROJECT_DIR$/configs/kernel/Matern.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/logging/logging.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plotting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tictoc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transport_samples.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cleanup" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Chwes&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Chwes/SVGD_redo.git&quot;,
+    &quot;accountId&quot;: &quot;06a8dada-5232-4183-b370-dc90e6d8178b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2vwsdfrkE3BhRV08t3HrPHZnH8p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Distributions.executor": "Run",
+    "Python.GradientFlow.executor": "Run",
+    "Python.Integrators.executor": "Run",
+    "Python.Kernel.executor": "Run",
+    "Python.example.executor": "Run",
+    "Python.example_kfrflow.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.utils.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "cleanup",
+    "last_opened_file_path": "D:/MasterThesis/Code_cleanup - Kopie"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MasterThesis\Code_cleanup - Kopie" />
+      <recent name="D:\MasterThesis\Code_cleanup - Kopie\configs" />
+      <recent name="D:\MasterThesis\Code_cleanup" />
+      <recent name="D:\MasterThesis\Code_cleanup\configs" />
+      <recent name="D:\MasterThesis\Code_cleanup\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MasterThesis\Code_cleanup\src" />
+      <recent name="D:\MasterThesis\Code_cleanup\configs" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b51d438e-dfde-42c8-84a6-8582f8d5f3e6" name="Changes" comment="" />
+      <created>1745067562035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745067562035</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first cleanup">
+      <option name="closed" value="true" />
+      <created>1745074310280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745074310280</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first cleanup">
+      <option name="closed" value="true" />
+      <created>1745570927268</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745570927283</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first cleanup">
+      <option name="closed" value="true" />
+      <created>1746750011001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746750011001</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first cleanup">
+      <option name="closed" value="true" />
+      <created>1746750459865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746750459865</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="first cleanup" />
+  </component>
+</project>

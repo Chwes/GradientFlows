@@ -1,0 +1,6 @@
+type: Normal
+dim: 1
+weights: None
+mean: [0.0]
+cov_matrix: [[1.0]]
+_target_: src.Distributions.BaseNormal

@@ -1,0 +1,4 @@
+type: "Explicit Euler"
+step_size: 0.01
+t0: 0
+_target_: src.Integrators.ExplicitEuler

@@ -1,0 +1,6 @@
+type: "RK45"
+t0: 0
+atol: 1e-9
+rtol: 1e-6
+threshold: 1e-4
+_target_: src.Integrators.RK45Integrator
